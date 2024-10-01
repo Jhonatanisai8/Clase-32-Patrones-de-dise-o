@@ -11,7 +11,7 @@ public class ReemplazarEspacioDecorador
 
     @Override
     public String darFormato() {
-        return texto.darFormato().replace(" ", ",");
+        return texto.darFormato().replace(" ", "_");
     }
 
 }
